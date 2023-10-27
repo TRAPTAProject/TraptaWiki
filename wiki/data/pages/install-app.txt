@@ -1,0 +1,39 @@
+====== Installer l'application android sur votre appareil ======
+
+S'il s'agit pour vous de faire des tests et d'évaluer l'application sur votre propre tablette ou téléphone android, vous pouvez installer l'application depuis le [[https://play.google.com/store/apps/details?id=com.traps.trapta|Google Play store]].
+L'application sera en mode ESSAI. Dans ce mode toutes les fonctions sont disponibles. Vous pourrez tester tout le processus: transfert des archers de Result'Arc vers TRAPTA, chargement des archers dans votre appareil android, saisie des volées, affichage sur TRAPTA Viewer, et ré-injection des score finaux dans Result'Arc. La seule limitation est que vous ne pourrez gérer que 3 cibles. En achetant des licences, vous déverouillez l'application et vous avez un nombre de cibles illimité.
+
+Lorsque vous aurez fait vos tests, l'application devra être installée sur des appareils dédiés à l'utilisation de TRAPTA. Il est techniquement possible de l'installer depuis le google play store, mais cela signifie entrer votre compte google sur chacun des appareils, ce qui n'est pas du tout une bonne idée puisque qu'ils seront utilisés par n'importe qui. Il faut donc installer l'application en la téléchargeant depuis le navigateur web de l'appareil android, exactement comme on installe une application sur un PC.
+
+Les copies d'écran ci-dessous sont faites à partir du téléphone Geotel A1, appareil que nous préconisons pour l'utilisation de l'application TRAPTA. Vous devriez pouvoir vous y retrouver avec n'importe quel autre tablette / téléphone android.
+
+Lancez le navigateur web de l'appareil (par exemple google chrome) :
+
+{{:androidinstall:icon-chrome.jpg?nolink|}}
+
+Dans la barre d'adresse, entrez le chemin vers l'application :
+
+{{:androidinstall:chrome-url.jpg?nolink|}}
+
+Le téléphone télécharge le fichier. Vous pouvez ensuite le retrouver soit par un lien dans le panneau de notifications à glisser depuis le haut de l'écran, soit en appuyant sur l'icone d'accès aux téléchargements:
+
+{{:androidinstall:icon-telecharge.jpg?nolink|}}
+
+Appuyez sur le fichier dans la liste. 
+
+{{:androidinstall:window-telecharge.jpg?nolink|}}
+
+L'appareil commence l'installation.
+
+{{:androidinstall:install-appli-question.jpg?nolink|}}
+
+Pour installer des applications venant d'une autre source que le google play store, il faut explicitement donner l'autorisation à votre appareil. Si vous ne l'avez pas déjà fait, un message vous dira:
+
+{{:androidinstall:popup-debloquer.jpg?nolink|}}
+
+Allez dans les paramètres de votre appareil pour autoriser l'installation d'applications depuis des sources inconnues :
+
+{{:androidinstall:source-inconnues.jpg?nolink|}}
+
+Une fois l'installation terminée, vous pouvez lancer l'application TRAPTA en tapant son icone.
+

@@ -1,0 +1,13 @@
+====== Release note ======
+==== Application android ====
+
+  * **1.27** (2020-06-28): Plus de license
+  * **1.26** (2018-08-14): Mode standalone
+  * **1.25** (2018-04-30): L'icone d'activitée réseau n'etait pas visible en mode "contraste extérieur"
+  * **1.24** (2018-02-12): Changement icon launcher + ajout icon activité réseau
+  * **1.22** (2017-10-01): Mise au point système de licence.
+  * **1.21** (2017-07-15): Encore Mise a jour système de licence, la mac address n'est plus un identifiant fiable.
+  * **1.20** (2017-07-15): Mise a jour systeme de licence
+  * **1.19** (2015-12-31): Ajout des couleurs et de l'adaptation auto de la police pour la feuille de match.
+  * **1.18** (2015-12-28): Adaptation automatique de la taille de police à l'appareil (telephones, tablettes, etc) => suppression du choix de taille de police dans le menu. Ajout de couleurs correspondant à la valeur de la cible dans le mode "contraste salle". Redesign du résumé des valeurs à la fin des séries. Ajout phase de recherche du serveur TRAPTA sur: MENU>REDEMARRER.
+  * **1.17** (2015-12-05): Correction d'un crash lors du démarrage de l'appli sur les tablettes ayant une version d'android inférieure à 4.2

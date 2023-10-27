@@ -1,0 +1,4 @@
+====== Release note ======
+==== TRAPTA Cloud ====
+
+  * **2.2** (2018-09-12): Interface plus moderne en QML. Preparation pour publication possible sur les sites web des utilisateurs. 

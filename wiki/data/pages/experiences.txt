@@ -1,0 +1,275 @@
+~~NOTOC~~
+
+Juillet 2017: une douzaine de comités départementaux ou clubs dans toute la France utilisent régulièrement le système TRAPTA pour leur compétitions salle et extérieur. 
+
+Voici la liste des occasions d'utilisation de l'application tablette TRAPTA depuis décembre 2013. Il ne s'agit que des utilisations de notre propre matériel mais le système est aussi utilisé dans d'autres départements.
+
+Nous ne tenons plus à jour systématiquement un compte-rendu. La système a atteint aujourd'hui un très bon niveau de maturité, il est utilisé par plusieurs clubs et comité départementaux. 
+
+<well>
+====== Novembre 2017 - Compétition dans le département de Haute-Garonne (31) =======
+</well>
+
+Le CD31 s'est équipé du système TRAPTA. À noter: les appareils utilisés pour faire tourner l'application sont des téléphones étanches robustes avec un écran 4.5 pouces. Il s'avère que ce type de terminal est parfaitement adapté à l'application. Il est sans doute à préférer aux tablettes 7 pouces.
+L'appareil choisi est un Geotel A1.
+
+{{:exp1.jpg?nolink |}}
+{{:exp2.jpg?nolink |}}
+{{:exp3.jpg?nolink|}}
+
+\\
+Un raspberry PI est utilisé pour projecter les résultats / classement sur le mur. Cet appareil à 40 euros peut être branché à un vidéo-projecteur. Il se connecte au PC trapta et récupère les classements. 
+
+
+
+{{:exp4.jpg?nolink |}}
+{{:exp5.jpg?nolink |}}
+{{:exp6.jpg?nolink|}}
+
+{{:exp7.jpg?nolink |}}
+{{:exp8.jpg?nolink|}}
+
+<well>
+====== Week-end des 12 et 13 décembre 2015 - Statistiques de consultations des résultats en ligne ======
+</well>
+
+Ce week-end des 12 et 13 décembre, 2 compétitions simultanées postaient leur résultats en temps réel sur le site TRAPTA:
+- Un concours salle à Avranche (50)
+- Un concours salle à Rennes (35)
+
+Les statistiques du dimanche montrent que 848 personnes ont consulté les résultats en ligne. Pas mal pour 2 petits concours locaux ! 848 personnes ont pu s'intéresser aux événements alors qu'il n'y a typiquement que 10 spectateurs dans les gradins pour ce genre de compétition. Nombre de visiteurs par jour:
+
+{{ :exp9.png?nolink |}}
+
+
+Fréquence des consultations tout au long du week-end et détail de l'activité sur le dimanche:
+
+{{:exp10.png?nolink |}}
+{{:exp11.png?nolink|}}
+
+<well>
+====== Championnat de Normandie Jeunes, Avranches, 8 février 2015 ======
+</well>
+{{:exp12.jpg?nolink|}}
+
+2 séries de qualification puis phases finales pour les jeunes de benjamins à juniors.
+
+{{:exp13.jpg?nolink|}}
+
+Deux écrans de chaque côtés de la salle + suivi des scores sur internet en direct
+
+{{:exp14.jpg?nolink|}}
+
+TRAPTA est décidément un outil plébiscité par les jeunes.
+
+{{:exp15.jpg?nolink|}}
+
+{{:exp16.jpg?nolink|}}
+
+Les benjamins (10-11ans) sont capables de prendre en main l'application sans explication préalable et de comprendre son fonctionnement intuitivement. Ils sont capables de lancer l'application et connecter la tablette au WIFI.
+
+<well>
+====== Mur de Bretagne, 24 et 25 janvier 2015, Championnat du Morbihan. Qualifications puis phases finales. ======
+</well>
+
+{{:exp17.jpg?nolink|}}
+
+{{:exp18.jpg?nolink|}}
+{{:morbihan1.jpg?nolink |}}
+
+<well>
+====== Rennes, 5 et 6 decembre 2014 ======
+</well>
+
+Ce week-end, il y a eu pour la première fois 3 utilisateurs simultanés du système TRAPTA: le comite de la manche à Cherbourg (50), le club de Fougères (35) et le club de Rennes (35).
+
+<well>
+====== La Vraie Croix (56), 15 et 16 novembre 2014 ======
+</well>
+
+Concours salle 3 departs. Premiere competition avec tablettes dans le Morbihan.
+
+<well>
+====== Domloup (35), 1er et 2 novembre 2014 ======
+</well>
+
+Concours salle 4 departs. Test de la version 1.7. Les feuilles de score pdf individuelles sont postees sur internet a l'issue de chaque tir.
+
+<well>
+====== Laillé (35), 11-12 octobre 2014 ======
+</well>
+
+Concours salle. Test de la version 1.6. Les visualisations sur video-projecteur et sur le site web incluent maintenant une colonne indiquant, à chaque volée, la progression des archers au classement.
+
+**245 visiteurs le dimanche** sur la page des resultats en direct (105 via connexions mobiles et 140 via connexions ADSL)
+
+<well>
+====== 3ème manche du championnat de France par équipes D1, Compiègne, 19 Juillet 2014 ======
+</well>
+
+{{:exp19.jpg?nolink|}}
+
+34 Cibles. Affichage sur une télé et sur internet. 
+
+[[http://www.trapta.eu/html/ffta-compiegne-19juillet2014.pdf|Rapport de fréquentation de la page de résultats "en direct des compétitions"]]
+
+Un très grand merci au comité départemental de la Manche, pionnier dans l'utilisation de cet outil, qui a apporté un précieux soutien matériel et humain pour cet évènement.
+
+{{:exp20.jpg?nolink|}}
+
+4 séries de 6 volées de 6 flèches puis matches à partir de 16ème de finale.
+
+{{:exp21.jpg?nolink|}}
+
+L'antenne d'extérieur WIFI Ubiquiti Nanostation M2, placée sur le côté du terrain et orientée vers les cibles.
+
+À cette occasion, nous avons pu tester la connexion de 67 tablettes sur l'antenne et le routeur pour vérifier que ce type de matériel pourvait gérer autant de tablettes (il y avait 34 tablettes au niveau des cibles, mais 67 tablettes connectées au réseau local - les suivantes ayant servi pour les matches).
+
+{{:exp22.jpg?nolink|}}
+
+{{:exp23.jpg?nolink|}}
+
+
+<well>
+FITA Liffré (Ille-et-Vilaine), 15 Juin 2014
+</well>
+{{:exp24.jpg?nolink|}}
+
+Une vingtaine de cibles ont été utilisées pour ce FITA / Fédéral. Deux départs dans la journée. Nous avons enchainé les 2 départs sans recharger les tablettes. Les batteries ont tenu jusqu'au bout mais on aurait pas pu faire un départ de plus. Depuis cette version, les tablettes envoient leur charge de batterie restante (en %) à chaque envoi de volée. On peut donc controler l'ensemble des batteries des tablettes en un seul coup d'oeil.
+
+{{:exp25.jpg?nolink |}}
+{{:exp26.jpg?nolink|}}
+
+<well>
+====== FITA Rennes, 1er Mai 2014 ======
+</well>
+
+{{:exp27.jpg?nolink|}}
+
+Le 17ème et 18ème départ du FITA de Rennes se sont deroulés le 1er Mai l'après-midi.
+
+{{:exp28.jpg?nolink |}}
+{{:exp29.jpg?nolink|}}
+
+{{:exp30.jpg?nolink |}}
+{{:exp31.jpg?nolink |}}
+{{:exp32.jpg?nolink|}}
+
+<well>
+====== FITA Yvetot (76), 26-27 Avril 2014. 1er test en extérieur. ======
+</well>
+
+3 départs pour cette compétition. Il y a eu de la pluie, et encore de la pluie, et même un peu de grêle. Très bon tests de robustesse pour le système. 28 cibles. Le système TRAPTA a marché sans problème. Alors que les feuilles de marque papier se décomposaient sous la pluie, les tablettes ont toujours fonctionné. Des changements dans les couleurs vont être apportés pour avoir un contraste maximum en extérieur. Tout doit être écrit noir sur fond blanc. Pas de couleur. Les compétiteurs pouvaient suivre leur classement sur une télé située sous une tente au centre, derrière le pas de tir. Chacun pouvait aussi les suivre depuis son téléphone portable, les résultats étant automatiquement postés à chaque volée sur internet.
+
+{{:exp33.jpg?nolink |}}
+{{:exp33.jpg?nolink|}}
+
+Sous la tente, la télé affiche en permanence l'evolution du classement et les tablettes dans leur pochette étanche.
+
+{{:exp35.jpg?nolink |}}
+{{:exp36.jpg?nolink|}}
+
+
+L'antenne WIFI orientée vers les cibles.
+
+<well>
+====== Concours jeunes, Domloup (35), 13 Avril 2014 ======
+</well>
+
+{{:exp37.jpg?nolink|}}
+
+Deux départs dans la journée. Que ce soit pour les adultes débutants ou les jeunes, l'application est considérée comme très intuitive. La saisie des points est facile, et l'affichage apprécié du public.
+
+{{:exp38.jpg?nolink |}}
+{{:exp39.jpg?nolink |}}
+{{:exp40.jpg?nolink|}}
+
+Affichage dans le fond de la salle:
+
+{{:exp41.jpg?nolink|}}
+
+<well>
+====== Concours débutants, Rennes, 5 Avril 2014 ======
+</well>
+Les résultats ont été postés en direct sur internet. Tout a bien marché, rien à signaler. La projection sur le mur du fond de la salle de Rennes est vraiment pratique, on a une image de 3m50 de large, lisible depuis les cibles.
+{{:exp42.jpg?nolink |}}
+
+<well>
+====== Concours jeunes, Cesson-Sévigné, 22 Mars 2014 ======
+</well>
+14 cibles, 56 jeunes. Affichage des résultats par vidéo projecteur et sur une télé dans les gradins.
+
+{{:exp43.jpg?nolink|}}
+
+Les jeunes aiment. Les phases de comptage de points qui apparaissaient rébarbatives et pénibles deviennent ludiques. Plus besoin de compter. Les parents et accompagnateurs sont ravis de pouvoir suivre la compétition grâce à l'affichage des résultats en continu.
+
+{{:exp44.jpg?nolink |}}
+{{:exp45.jpg?nolink|}}
+
+
+<well>
+====== Championnat de Normandie 2014, Cherbourg, 15-16 Février ======
+</well>
+Les 32 tablettes du Comité Départemental de la Manche ont été baptisées à cette occasion. Premiers tests de mise en ligne des résultats en direct de la compétition sur le site trapta.fr. 
+
+{{:exp46.jpg?nolink|}}
+
+Affichage sur la gauche de la salle
+
+{{:exp47.jpg?nolink|}}
+
+Affichage sur la droite de la salle
+
+{{:exp48.jpg?nolink|}}
+
+
+Pendant la saisie de volées
+
+{{:exp49.jpg?nolink|}}
+
+Visualisation des résultats sur des terminaux mobiles depuis le public.
+
+{{:exp50.jpg?nolink|}}
+
+Visites de la page de résultats live : Samedi: 580 
+[[http://www.trapta.eu/html/visites-trapta-cherbourg2014-samedi15.pdf|visites-trapta-cherbourg2014-samedi15.pdf]]
+Dimanche: 1605
+[[http://www.trapta.eu/html/visites-trapta-cherbourg2014-dimanche16.pdf|visites-trapta-cherbourg2014-dimanche16.pdf]]
+
+<well>
+====== Championnat départemental de Seine-Maritime, Neufchatel, 1er février 2014 ======
+</well>
+
+Tout a bien marché à part un problème de saisie à la volée 5. Bug corrigé.
+L'écran de saisie des matches sur la tablette a été modifié. Les lettres A et B n'apparaissent plus, seuls les noms des archers (pas de désynchro entre A et B avec les papiers des juges). Tous les matches sont correctement générés, jusqu'à la finale. Les résultats ont été exportés dans result'arc. La liste des sélectionnés pour les phases finales est disponible instantanément après les tirs de qualif.
+
+{{:exp51.jpg?nolink|}}
+
+<well>
+====== Granville, Normandie, 25-26 janvier 2014 ======
+</well>
+{{:exp52.jpg?nolink|}}
+
+Deux afficheurs étaient connectés. Un écran à chaque coin de la salle. Tout a bien marché. Quelques modifications à apporter sur la génération automatique des feuilles de match, un bug à corriger sur l'export des points vers Result'Arc. Bilan positif pour tout le monde.
+
+{{:exp53.jpg?nolink|}}
+
+<well>
+====== Rennes, Bretagne, 10-12 janvier 2014 ======
+</well>
+11 cibles, 5 départs. Tout a bien marché, les archers arrivent à prendre en main l'application dès la saisie de la première volée.
+<well>
+====== Rennes, Bretagne, 8-10 décembre 2013 ======
+</well>
+
+11 cibles, 5 départs. Rien à signaler, tout a marché comme prévu. De nouvelles remarques et suggestions remontées par les archers seront prises en compte (notamment sur les éléments à afficher sur le classement déroulant).
+<well>
+====== Grand Couronne, Normandie, 1er décembre 2013 ======
+</well>
+
+Le tout premier test du système TRAPTA a eu lieu lors d'une compétition organisée par le club de Grand Couronne. __Un grand merci à eux pour nous avoir accueilli et fait confiance pour cette première !__ Les tablettes ont été utilisées en temps que 2ème feuille de marque. Le système a très bien marché, quelques petits bugs sur l'afficheur qui ont été vite corrigés, une coupure de courant générale (disjoncteur) qui a fait tomber le WIFI, mais les tablettes ont continué de marcher et se sont automatiquement resynchronisées avec le server lorsque le courant est revenu => très bon test de robustesse du système. De légères modifications vont être apportées à l'interface suite aux remarques et suggestions des archers et des arbitres. Les archers ont pu repartir avec leur feuille de marque imprimée à la fin des tirs.
+
+{{:exp54.jpg?nolink |}}
+{{:exp55.jpg?nolink|}}
+
+

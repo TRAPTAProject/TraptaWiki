@@ -1,0 +1,10 @@
+====== Release note ======
+==== TRAPTA Viewer ====
+
+  * **4.2** (2018-03-24): Correction bug: Le bandeau d'annonce devait être rechargé à chaque démarrage de TRAPTAViewer 
+  * **4.1** (2018-02-08): Affichage optionel du nom du club sur l'écran de positions et l'écran de classement 
+  * **4.0** (2016-03-07): L'application est maintenant sur une seule fenetre. Elle se connecte / reconnecte a TRAPTA dès qu'il est trouvé sur le réseau. Appuyer sur une touche pour afficher l'aide et le panneau de configuration.
+  * **3.1** (2015-12-19): Ajout d'un écran d'aide au démarrage de l'application. Gestion des touches pour le réglage.
+
+
+

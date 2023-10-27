@@ -1,0 +1,100 @@
+Le projet TRAPTA ne concerne que l'ensemble des logiciels, vous devrez acheter votre matériel pour le faire marcher. Nous vous accompagnerons volontiers dans vos choix.
+
+Pour faire marcher l'application TRAPTA, vous avez besoin au minimum:
+
+  * d'appareils android (tablettes ou smartphones). 1 appareil par cible (1 appareil pour 4 archers).
+  * Un PC windows ou Apple ou linux. Une configuration d'entrée de gamme suffit.
+  * Un routeur pour faire communiquer tout le monde en WIFI (50 euros)
+
+===== Appareils android =====
+
+{{ :geotel.png?nolink&200|}}
+
+N'importe quel type d'appareil (téléphone ou tablette) android peut etre utilisé pour faire marcher l'appli TRAPTA. Nous pouvons par exemple vous recommender des appareils du type [[http://www.geotel.cc/a1.php|Geotel A1]] ou [[http://www.geotel.cc/g1.php|Geotel G1]]. Vous les trouverez entre 60 et 80 euros environ sur les sites de commerce en ligne (cdiscount, etc...).
+Ces appareils sont étanches et ont une grande capacité de batterie.
+
+Vous pouvez utiliser aussi des tablettes comme celles-ci:
+[[https://www.boulanger.com/c/tablette-tactile-android?sorting__lead_price=asc]]
+
+Les prix débutent à 50 euros. Ces apapreils ne sont pas étanches mais ils ont un écran plus grand. On peut aussi leur ajouter une pochette étanche pour l'extérieur.
+
+Notre recommandation (Aout 2018), sur Cdiscount, des appareils Geotel G1 etaient vendu 74 euros. Ces appareil sont vraiment bien adaptés pour cette utilisation.
+
+Pour faire votre choix, vous devez avoir en tête :
+
+  * L'appareil passera entre des centaines de mains (robuste)
+  * Il pourra être utilisé en extérieur (étanche) - Si vous ne prévoyer d'utiliser vos appareils qu'en salle, l'etanchéïté n'est pas un élément à prendre en compte.
+  * La batterie doit tenir toute une journée, ce qui est le cas même des modèles d'entrée de gamme.
+  * L'écran doit être suffisamment grand (des archers apprécient par exemple de ne pas avoir à utiliser leurs lunettes pour saisir leur score, contrairement à la feuille papier).
+  * La luminosité de l'écran doit être suffisante pour être utilisé en plein soleil. Attention, c'est le réglage de luminosité de l'écran qui a le plus d'impact sur la consommation d'énergie. 
+  * L'application TRAPTA est très basique en terme de fonction. Elle nécessite peu de mémoire et de processeur. La résolution de l'écran n'est pas du tout primordiale. L'application n'est au fond qu'une simple calculatrice qui envoie des valeurs par wifi.
+
+
+Voici des photos prises par le CD31 qui utilise des geotel A1 pour faire marcher leur système TRAPTA :
+
+{{:cd31a.jpg?nolink |}}
+{{:dsc05644.jpg?nolink|}}
+
+
+
+{{:cd31b.jpg?nolink |}}
+{{:dsc_6350.jpg?nolink|}}
+
+
+
+Voici le matériel et l'emballage du CD31:
+
+{{:emballage.jpg?nolink|}}
+
+
+
+Avant que ce type de matériel durci et économique n'arrive sur le marché nous conseillions d'utiliser des tablettes 7 pouces d'entrée de gamme avec une pochette pour la salle et une autre pour l'extérieur. Par rapport au smartphone Geotel A1, le seul avantage est l'écran de plus grande taille. Mais ces tablettes sont plus fragiles et nécessitent des pochettes de protection ce qui au final ne rend pas la solution moins chère.
+
+{{:compiegne2.jpg?nolink|}}
+
+Le matériel du CD50 en 2014: 30 tablettes 7 pouces avec pochettes de protection
+
+{{:rennes3.jpg?nolink |}} {{:girouille.jpg?nolink|}}
+
+Utilisation en extérieur
+
+===== Routeur WIFI =====
+
+{{:220px-linksys-wireless-g-router.jpg?nolink&200|}}
+
+Le routeur WIFI permet de créer un réseau. C'est à travers lui que l'ensemble des appareils et le PC pourront communiquer. Choisissez un appareil simple et robuste. Vous pouvez par exemple prendre le modèle [[http://en.wikipedia.org/wiki/Linksys_WRT54G_series|WRT54G de linksys]]. Nous l'avons testé dans toutes les conditions depuis des années. Il est très fiable. Il coûte 50 euros. Cet appareil sera suffisant seul pour une compétition en salle. Pour l'extérieur, la distance étant trop grande, il faudra ajouter une antenne Ubiquiti Nanostation M2 ou équivalent (voir plus bas)
+
+
+
+===== Ordinateur portable =====
+Il vous faudra un PC pour faire tourner le serveur TRAPTA, le Viewer (TRAPTAViewer) et l'application qui poste les résultats en temps réel sur internet (TRAPTACloud). Un PC d'entrée de gamme suffit. Ce peut même être le même PC que celui qui sert pour résult'ARC. 
+Toutes ces applications sont aussi disponibles pour Mac et Linux.
+
+
+===== Antenne WIFI extérieure =====
+
+Nous vous conseillons l'antenne  [[http://www.ubnt.com/airmax/nanostationm|NANOSTATION M2 UBIQUITI]]
+
+{{:nanom_z1.jpg?nolink&200|}}
+
+
+D'autres antennes d'autres fabricants peuvent être utilisées, mais nous avons fait tous nos tests avec cette antenne. Nous savons qu'elle est adaptée et nous pouvons vous aider à la configurer.
+
+Vous pouvez la trouver partout, notamment ici :
+
+  * [[http://www.mhzshop.com/shop/index~sid~895a109bb939b75c7c941e330ff014d3~cl~details~anid~ffd4bab9629bffc96.82238801~listtype~search~searchparam~nanostation.htm|MhzShop]]
+  * [[http://www.monwifi.fr/index.php?id_product=24&controller=product|Infracom]]
+  * [[http://www.nv-networks.com/fr/ubiquiti-nanostation-m2-airmax.htmlnv-networks]]
+
+Et partout ailleurs (amazon, etc...)
+
+Cette antenne permet de capter les tablettes à plus de 200m de distance en extérieur, elle est à brancher sur le routeur.
+Voici un [[http://www.trapta.eu/html/media/nanostationM2-config-trapta.pdf|document qui vous aidera à la configurer]]. 
+
+Cette antenne peut aussi être utilisée en salle. 
+
+Il est aussi possible de configurer plusieurs antennes en réseau, chacune faisant office de relais. Les antennes relais peuvent par exemple être branchées sur batterie de voiture (alimentation entre 12V et 24V). Pour mettre en place un réseau d'antenne relais, référez-vous à [[http://www.traps-ck.com/doku.php?id=configure-m2|cette documentation]].
+
+===== Système d'affichage =====
+
+Tout type de matériel d'affichage peut être utilisé tant qu'il peut se connecter à un PC. Vous pouvez connecter des télés, des vidéo-projecteurs, des écrans LED d'extérieur. Il n'est pas nécessaire d'utiliser un PC pour envoyer l'affichage sur une télé ou un écran. Vous pouvez utiliser un simple [[raspberry|raspberry]].

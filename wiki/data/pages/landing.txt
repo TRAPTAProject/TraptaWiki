@@ -1,0 +1,4 @@
+<jumbotron background="http://www.trapta.eu/res/frontbanner.jpg" color="#000">
+TRAPTA est un outil utilisé lors des compétitions de tir à l'arc. Pour tenir à jour leur score, les archers utilisent une tablette ou téléphone android qui fait office de feuille de marque numérique. Toutes les valeurs des flèches sont enregistrées localement dans ces appareils. En plus, elles sont synchronisées avec un PC qui établit le classement à chaque volée, l'affiche localement sur un écran ou vidéo-projecteur, et optionnellement, le poste sur internet. À la fin des tirs, les feuilles de scores peuvent être imprimées et les scores globaux exportés dans le logiciel <a href="http://www.ffta.fr/vie-sportive/resultats/gerez-les-resultats-avec-resultarc">Result'arc</a> de la <a href="http://www.ffta.fr">Fédération Française de Tir à l'Arc</a>
+</jumbotron>
+Landing page

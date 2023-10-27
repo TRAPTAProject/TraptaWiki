@@ -1,0 +1,129 @@
+Un Raspberry PI est un mini ordinateur à peine plus gros qu'une carte de crédit. Il coute 40 euros à la Fnac. On peut le brancher sur un vidéo-projecteur ou une télé via un cable HDMI et faire tourner dessus TRAPTAViewer. Fini le PC portable qu'il faut installer sur une table et qui se retrouve dédié uniquement à faire marcher TRAPTAViewer. Avec le raspberry, vous pouvez mettre plusieurs afficheurs dans votre salle ou sur votre pas de tir en extérieur. 
+
+Voici à quoi ressemble le montage final :
+
+{{:exp3.jpg?nolink|}}
+
+Raspberry 3 utilisé par le CD31 pour projeter les résultats.
+
+On peut en plus le régler pour qu'au démarrage, le raspberry lance automatiquement TRAPTAViewer ! 
+
+Autrement dit :
+
+  * Installez votre TV ou rétro-projecteur ou autre écran
+  * Connectez le raspberry 3 par le cable HDMI
+  * Branchez l'alimentation du raspberry
+
+C'est parti, TRAPTAViewer est lancé et il se met en attente de TRAPTA pour afficher les résultats.
+
+==== 1. Achetez un raspberry 3 ====
+
+{{:raspberry3.jpg?nolink|}}
+
+Vous pouvez le commandez sur fnac.com, amazon.fr, etc...
+
+==== 2. Habillez-le (ou pas) ====
+
+N'hésitez pas à le lui choisir un joli boitier, dans le domaine, il y a le choix : 
+
+{{:rpi-casing1.jpg?nolink |}}
+{{:rpi-casing2.jpg?nolink |}}
+{{:rasp-lego1.jpg?nolink |}}
+{{:red-raspberry.jpg?nolink |}}
+{{:rpi-casing4.jpg?nolink|}}
+
+==== 3. La carte mémoire ====
+
+{{:microsd.jpg?nolink|}}
+
+Achetez une carte micro SD de 8Go (ou plus mais ce sera inutile) dans votre supermarché préféré.
+
+
+==== 4. Le système Pi OS ====
+
+Il faut maintenant copier le système d'exploitation sur cette carte. Le système utilisé par le raspberry Pi OS et vous trouverez les liens pour le charger ici :
+
+https://www.raspberrypi.org/downloads/
+
+Téléchargez Pi Imager. Ce logiciel vous permettra de flasher votre carte SD.
+
+{{ :piimager.png?nolink |}}
+
+Choisissez la première ligne, Raspberry Pi OS (32-bit).
+Sélectionnez votre carte SD et cliquez WRITE.
+
+==== 5. TRAPTAViewer ====
+
+Une fois le système écrit sur la carte, insérez la carte dans le raspberry, branchez le raspberry sur un écran via un cable HDMI, et branchez l'alimentation du raspberry.
+Pensez aussi à brancher un clavier et une souris au raspberry.
+
+Le raspberry démarre et vous arrivez sur un bureau de PC.
+
+{{:desktop.jpg?nolink|}}
+
+Connectez le raspberry à internet soit via le wifi (le bouton de sélection de réseau wifi est en haut à droite de l'ecran de bureau) soit en le reliant par un cable réseau.
+
+Une fois connecté à internet, cliquez sur cet icone (en haut à gauche du bureau)
+
+{{:rpisc10.png?nolink|}}
+
+pour ouvrir une console.
+
+Tapez :
+
+<code>
+wget http://www.trapta.eu/bin/TRAPTAViewer4.2-raspberry-pi.tar.gz
+</code>
+
+{{:console1.png?nolink|}}
+
+Le fichier est téléchargé.
+
+Pour le dézipper, tapez :
+
+<code>
+tar xvf TRAPTAViewer4.2-raspberry-pi.tar.gz
+</code>
+
+Maintenant vous pouvez lancer l'application TRAPTAViewer en tapant :
+
+<code>
+cd TRAPTAViewer
+./TRAPTAViewer
+</code>
+
+==== 5. Lancement automatique au démarrage ====
+
+Si vous voulez que l'application soit automatiquement lancée au démarrage du raspberry, tapez:
+
+<code>
+sudo nano /etc/rc.local
+</code>
+
+Le fichier rc.local est exécuté à la fin du boot, il suffit donc d'y ajouter la commande lançant l'application :
+
+À la fin du fichier - mais avant la ligne "exit 0" ! -, ajoutez :
+
+<code>
+cd /home/pi/TRAPTAViewer
+./TRAPTAViewer&
+</code>
+//- Le symbol & à la fin de la 2ème ligne est important -//
+
+Le fichier doit ressembler à ceci :
+
+{{:console2.png?nolink|}}
+
+
+Faites CTRL-X puis Y pour sortir et enregistrer le fichier.
+
+Redémarrez le raspberry. TRAPTAViewer se lance automatiquement. Appuyez 2 fois sur Echap pour quitter l'application et revenir sur le bureau de votre système.
+
+Assurez-vous que votre raspberry se connecte au wifi de votre routeur TRAPTA au démarrage.
+
+
+Vous pouvez retrouver les informations sur le fichier rc.local ici :
+
+https://www.raspberrypi.org/documentation/linux/usage/rc-local.md
+
+

@@ -1,0 +1,80 @@
+Le code de ces logiciels est open source et peut être trouvé ici:
+
+  * https://github.com/TRAPTAProject
+
+===== Application Android =====
+{{:traptaandroid128.png?nolink|}}
+
+==== Version 1.27 ====
+Vous pouvez installer l'application depuis :
+[[https://play.google.com/store/apps/details?id=com.traps.trapta|TRAPTA sur le Google Play store]] 
+
+S'il s'agit d'installer l'application sur des tablettes dédiées, achetées par un club ou une structure, vous ne pourrez pas l'installer depuis le play store car il vous faudrait alors configurer votre compte google personnel sur chacune des tablettes. Techniquement, c'est possible, mais il n'est pas conseillé d'ajouter votre compte google sur des appareils qui vont être utilisés par des centaines de personnes.
+Il faut donc simplement télécharger le fichier depuis le navigateur web de la tablette qui vous proposera alors d'installer l'application. 
+Connectez la tablette en WIFI à votre box internet et depuis le navigateur de la tablette entrez cette adresse:
+
+[[http://www.trapta.eu/trapta.apk|{{:android128.png?nolink&50|}}]][[http://www.trapta.eu/trapta.apk|http://www.trapta.eu/trapta.apk]]
+
+[[release-note-server|Release note]]
+
+L'appareil va télécharger l'application. Allez dans la liste des téléchargements et appuyez dessus. La tablette/téléphone installe l'application. Vérifiez que votre appareil autorise l'installation d'applications ne provenant pas du magasin de google: dans les paramètres de la tablette, onglet "sécurité", cochez "autoriser l'installation d'applications ne provenant pas de google". 
+
+[[install-app|Ici une aide pour installer cette application sur votre téléphone / tablette]]
+
+
+===== TRAPTA =====
+{{:traptaserver128.png?nolink|}}
+
+TRAPTA est l'application serveur. Elle se présente un peu comme un tableau excel. Elle permet de charger la liste des compétiteurs dans les appareils et elle collecte les points au fur et à mesure de la compétition. Elle établit un classement et envoie ces informations à TRAPTAViewer pour un affichage local sur un écran et/ou à TRAPTACloud qui poste les résultats sur internet.
+
+[[release-note-trapta|Release note]]
+
+|{{:windows128.png?nolink&50|}}|[[http://www.trapta.eu/bin/trapta1.26_ra8-install.exe|trapta1.26_ra8-install.exe]]|Windows (15Mo)|
+|{{:apple128.png?nolink&50|}}|[[http://www.trapta.eu/bin/trapta1.20.dmg|trapta1.20.dmg]]|macOS (28Mo)|
+|{{:linux128.png?nolink&50|}}|[[http://www.trapta.eu/bin/trapta1.23-linux_x86-64.tar.gz|trapta1.23-linux_x86-64.tar.gz]]|Linux x86_64 (11Mo)|
+
+
+===== TRAPTA Viewer =====
+{{:traptaviewer128.png?nolink|}}
+
+TRAPTA Viewer se connecte au serveur TRAPTA et affiche le classement individuel et par équipe, ainsi que les résultats des matchs. Cet affichage est à envoyer sur un écran (télé), ou simplement sur un bout du mur du gymnase (video-projecteur)
+
+[[release-note-traptaviewer|Release note]]
+
+|{{:windows128.png?nolink&50|}}|[[http://www.trapta.eu/bin/TRAPTAViewer4.2-windows.exe|TRAPTAViewer4.2-windows.exe]]|Windows (17Mo)|
+|{{:apple128.png?nolink&50|}}|[[http://www.trapta.eu/bin/TRAPTAViewer4.2-macOS.dmg|TRAPTAViewer4.2-macOS.dmg]]|macOS (27Mo)|
+|{{:linux128.png?nolink&50|}}|[[http://www.trapta.eu/bin/TRAPTAViewer4.1-linux-x86_64.tar.xz|TRAPTAViewer4.1-linux-x86_64.tar.xz]]|Linux x86 64bits (13Mo)|
+| |[[raspberry|En savoir plus sur le raspberry PI et son intérêt dans le système TRAPTA]]| |
+|{{:raspberrypi128.png?nolink&50 |}}|[[http://www.trapta.eu/bin/TRAPTAViewer4.2-raspberry-pi.tar.gz|TRAPTAViewer4.2-raspberry-pi.tar.gz]]|Raspberry Pi 3 (Raspian stretch) (16Mo)|
+
+===== TRAPTA Cloud =====
+{{:traptacloud128.png?nolink|}}
+
+TRAPTA Cloud se connecte au site web TRAPTA et poste les classements et feuilles de scores individuelles sur internet. Les scores sont consultables sur [[http://score.trapta.eu]]
+
+Il faut un compte pour poster ses résultats sur internet. Ce compte est fourni lors d'achat de licences.
+
+[[release-note-traptacloud|Release note]]
+
+|{{:windows128.png?nolink&50|}}|[[http://www.trapta.eu/bin/traptacloud2.2-install.exe|traptacloud2.2-install.exe]]|Windows (20Mo)|
+|{{:apple128.png?nolink&50|}}|[[http://www.trapta.eu/bin/traptacloud2.3.dmg|traptacloud2.3.dmg]]|macOS (20Mo)|
+|{{:linux128.png?nolink&50|}}|[[http://www.trapta.eu/bin/traptacloud2.2.tar.gz|traptacloud2.2.tar.gz]]|Linux x86_64 (20Mo)|
+
+===== TRAPTA Transfer =====
+{{:resultarc-transfer128.png?nolink|}}
+
+Cette application permet:
+
+  * Avant les tirs, d'extraire la liste des archers de Result'Arc pour l'importer dans l'application serveur TRAPTA
+  * Après les tirs, de repousser les scores de TRAPTA vers Result'arc. Cela évite la saisie manuelle des scores.
+
+Application windows uniquement puisque Result'Arc est pour windows.
+
+Suivi de la compatibilité: Octobre 2022, Result'arc 8.0
+
+[[release-note-transfer|Release note]]
+
+|{{:windows128.png?nolink&50|}}|[[http://www.trapta.eu/bin/TRAPTATransfer1.9_ra8-windows.exe|TRAPTATransfer1.9_ra8-windows.exe]]|Windows (13Mo)|
+
+Toutes les versions :
+[[http://www.trapta.eu/bin|Tous les fichiers d'installation]]

@@ -1,0 +1,15 @@
+====== Licences logicielles ======
+
+Les licences logicielles concernent les applications Android. Les autres logiciels (TRAPTA, TRAPTA Viewer, TRAPTA Transfer et TRAPTA Cloud) sont gratuits.
+Vous devez acheter autant de licences que vous avez de tablettes Android.
+Pour obtenir une licence et débloquer l'application sur un appareil :
+  * Allez sur la page "licence" (bouton MENU puis licence).
+
+{{:trapta-licence-screen.png?nolink|}}
+
+
+  * Notez le code que vous donne l'application __exactement__ tel qu'il apparaît sur l'écran (code blanc 84:29:c7:17:cd:77 sur l'example ci-dessus)
+  * Envoyez votre paiement avec la liste de vos codes. Pour les modalités de paiement, [[contact|contactez-nous]] 
+  * En retour nous vous retournerons la liste des clés de licences que vous devrez entrer sur chaque appareil (code jaune)
+
+En cas de casse, de panne, ou de renouvellement d'appareil arrivant en fin de vie, nous vous redonnerons gratuitement un numéro de licence pour chaque appareil remplacé. Nous faisons confiance aux utilisateurs pour ne pas abuser du principe en prétendant que leur appareil est cassé pour obtenir des numéros de licences supplémentaires. 

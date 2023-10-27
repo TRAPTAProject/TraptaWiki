@@ -1,0 +1,4 @@
+Depuis juin 2020, TRAPTA est open source sous licence MIT. 
+
+https://github.com/TRAPTAProject
+

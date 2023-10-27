@@ -1,0 +1,10 @@
+==== Notes sur les données extraites de Résult'arc ====
+
+Les données extraites de Résult'arc ne sont que les noms, catégories et numéro de licences. Il ne s'agit que des données nécessaires pour constituer une feuille de départ. Notez que les scores ne peuvent pas être extraits pour être mis à jour dans TRAPTA. Il est IMPOSSIBLE de procéder au cas d'utilisation suivant :
+
+  * Après les tirs, vous réinjectez les scores de TRAPTA dans Résult'arc, puis un contrôle avec les résultats des feuilles papier vous amène à corriger un score sur Résult'arc. Vous voudriez extraire à nouveau les archers de Résult'arc pour mettre à jour TRAPTA avec la correction.
+
+Si vous extrayez à nouveau ce départ de Résult'arc, le fichier ne contiendra pas les scores et si vous le réimportez dans TRAPTA, vous remettrez tous vos scores à 0. 
+Il faut comprendre que TRAPTA calcul en permanence les scores et les obtient en sommant toutes les flèches d'un archer. Et de l'autre côté, Résult'arc ne mémorise pas les flèches mais uniquement un score global. Il est donc impossible de repartir d'un score global de Résult'arc pour reconstituer une feuille de score complète d'un archer sur TRAPTA. 
+
+En conséquence, si vous faite une modification de score dans Résult'arc après coup, vous devez faire la correction dans TRAPTA à l'aide d'une tablette: prenez une tablette au hasard, MENU > REDEMARRER, sélectionnez la cible à corriger, la tablette recharge les archers de cette cibles avec toutes leurs données, modifiez, et la correction est envoyée à TRAPTA.

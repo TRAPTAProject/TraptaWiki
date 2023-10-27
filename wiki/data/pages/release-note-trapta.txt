@@ -1,0 +1,10 @@
+====== Release note ======
+==== TRAPTA (serveur) ====
+
+  * **1.26_ra8** (Octobre 2022): Compatible avec ResultArc 8
+  * **1.25** (Juillet 2021): Ajout choix couleurs sombres / claires dans le menu Réglages
+  * **1.22** (Janvier 2020): Répartition des matches sur cibles selon World Archery et non plus selon FFTA
+  * **1.21** (Fevrier 2019): Correction bugs
+  * **1.20** (Aout 2018): Ajout signal visuel activite reseau + travaux maintenance
+  * **1.19** (fev 2018): Ajout des transcriptions des noms de catégories préfixées par FITA et FEDERAL (fenêtre REGLAGES > Affichage catégories)
+  * **1.17** (nov 2017): Correction bug: Menu compétition>Effacer tout, le bouton NON a le même effet que le bouton OUI. Pas bon. | Suppression du bouton “Faire l'appel”. Inutile car les devices ne répondent pas en veille. | Ajout d'un fichier de log (log.txt) qui se trouve dans le repertoire indiqué dans le menu Réglages>A propos (database)

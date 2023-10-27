@@ -1,0 +1,14 @@
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1532940829;s:8:"modified";i:1665940575;}s:4:"user";s:0:"";s:7:"creator";s:0:"";s:11:"last_change";a:8:{s:4:"date";i:1665940575;s:2:"ip";s:14:"86.215.135.119";s:4:"type";s:1:"E";s:2:"id";s:12:"applications";s:4:"user";s:6:"trapta";s:3:"sum";s:18:"[TRAPTA Transfer] ";s:5:"extra";s:0:"";s:10:"sizechange";i:-2;}s:11:"contributor";a:1:{s:6:"trapta";s:6:"trapta";}s:5:"title";s:19:"Application Android";s:11:"description";a:2:{s:15:"tableofcontents";a:6:{i:0;a:4:{s:3:"hid";s:19:"application_android";s:5:"title";s:19:"Application Android";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:1;a:4:{s:3:"hid";s:11:"version_127";s:5:"title";s:12:"Version 1.27";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:2;a:4:{s:3:"hid";s:6:"trapta";s:5:"title";s:6:"TRAPTA";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:3;a:4:{s:3:"hid";s:13:"trapta_viewer";s:5:"title";s:13:"TRAPTA Viewer";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:4;a:4:{s:3:"hid";s:12:"trapta_cloud";s:5:"title";s:12:"TRAPTA Cloud";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:5;a:4:{s:3:"hid";s:15:"trapta_transfer";s:5:"title";s:15:"TRAPTA Transfer";s:4:"type";s:2:"ul";s:5:"level";i:2;}}s:8:"abstract";s:508:"Le code de ces logiciels est open source et peut être trouvé ici:
+
+	*  <https://github.com/TRAPTAProject>
+
+Application Android
+
+
+
+Version 1.27
+
+Vous pouvez installer l'application depuis :
+TRAPTA sur le Google Play store
+
+S'il s'agit d'installer l'application sur des tablettes dédiées, achetées par un club ou une structure, vous ne pourrez pas l'installer depuis le play store car il vous faudrait alors configurer votre compte google personnel sur chacune des tablettes. Techniquement, c'est possi…";}s:8:"relation";a:3:{s:5:"media";a:10:{s:20:"traptaandroid128.png";b:1;s:14:"android128.png";b:1;s:19:"traptaserver128.png";b:1;s:14:"windows128.png";b:1;s:12:"apple128.png";b:1;s:12:"linux128.png";b:1;s:19:"traptaviewer128.png";b:1;s:18:"raspberrypi128.png";b:1;s:18:"traptacloud128.png";b:1;s:25:"resultarc-transfer128.png";b:1;}s:10:"references";a:7:{s:19:"release-note-server";b:1;s:11:"install-app";b:1;s:19:"release-note-trapta";b:1;s:25:"release-note-traptaviewer";b:1;s:9:"raspberry";b:1;s:24:"release-note-traptacloud";b:1;s:21:"release-note-transfer";b:1;}s:10:"firstimage";s:20:"traptaandroid128.png";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1532940829;s:8:"modified";i:1665940575;}s:4:"user";s:0:"";s:7:"creator";s:0:"";s:11:"last_change";a:8:{s:4:"date";i:1665940575;s:2:"ip";s:14:"86.215.135.119";s:4:"type";s:1:"E";s:2:"id";s:12:"applications";s:4:"user";s:6:"trapta";s:3:"sum";s:18:"[TRAPTA Transfer] ";s:5:"extra";s:0:"";s:10:"sizechange";i:-2;}s:11:"contributor";a:1:{s:6:"trapta";s:6:"trapta";}}}

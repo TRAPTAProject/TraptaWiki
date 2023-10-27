@@ -1,0 +1,5 @@
+====== Release note ======
+==== Result'Arc transfer ====
+
+  * **1.9_ra8** (Octobre 2022): Compatible Resultarc 8
+  * **1.9**: Permet de gérer facilement les doubles compétitions du type FITA + FEDERAL (case à cocher au bas de la fenêtre lors de l'import de la liste des archers)

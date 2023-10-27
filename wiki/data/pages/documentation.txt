@@ -1,0 +1,711 @@
+==== Matériel nécessaire ====
+
+Voici [[doc:matos|un aperçu du matériel]] nécessaire à la mise en oeuvre du système TRAPTA.
+
+==== Les débuts du projet ====
+
+[[doc:experiences|Les débuts du projet (2013-2015) en quelques illustrations]]
+
+==== Avant de commencer, une autre source de documentation ====
+Documents de formation mis au point par le [[http://www.tiralarc50.fr/|Comité Départemental de la Manche (CD50)]] en 2014. Elles sont plus succinctes et idéales pour servir de pense-bête.
+
+
+  * {{ :conceptetdefinitions.pdf |Concepts et Définitions}}
+  * {{ :installationmateriel.pdf |Installation du matériel}}
+  * {{ :importation.pdf |Importation des archers}}
+  * {{ :traptaserveur.pdf |TRAPTA Serveur}}
+  * {{ :traptaviewer.pdf |TRAPTA Viewer}}
+  * {{ :traptacloud.pdf |TRAPTA Cloud}}
+
+
+===== Aperçu du système =====
+
+{{ :tutorial:trapta.png?nolink |}}
+
+===== Installer l'application android sur votre appareil =====
+
+S'il s'agit pour vous de faire des tests et d'évaluer l'application sur votre propre tablette ou téléphone android, vous pouvez installer l'application depuis le [[https://play.google.com/store/apps/details?id=com.traps.trapta|Google Play store]].
+
+Lorsque vous aurez fait vos tests, l'application devra être installée sur des appareils dédiés à l'utilisation de TRAPTA. Il est techniquement possible de l'installer depuis le google play store, mais cela signifie entrer votre compte google sur chacun des appareils, ce qui n'est pas du tout une bonne idée puisque qu'ils seront utilisés par n'importe qui. Il faut donc installer l'application en la téléchargeant depuis le navigateur web de l'appareil android, exactement comme on installe une application sur un PC.
+
+Les copies d'écran ci-dessous sont faites à partir du téléphone Geotel A1, appareil que nous préconisons pour l'utilisation de l'application TRAPTA. Vous devriez pouvoir vous y retrouver avec n'importe quel autre tablette / téléphone android.
+
+Lancez le navigateur web de l'appareil (par exemple google chrome) :
+
+{{:androidinstall:icon-chrome.jpg?nolink|}}
+
+Dans la barre d'adresse, entrez le chemin vers l'application :
+
+{{:androidinstall:chrome-url.jpg?nolink|}}
+
+Le téléphone télécharge le fichier. Vous pouvez ensuite le retrouver soit par un lien dans le panneau de notifications à glisser depuis le haut de l'écran, soit en appuyant sur l'icone d'accès aux téléchargements:
+
+{{:androidinstall:icon-telecharge.jpg?nolink|}}
+
+Appuyez sur le fichier dans la liste. 
+
+{{:androidinstall:window-telecharge.jpg?nolink|}}
+
+L'appareil commence l'installation.
+
+{{:androidinstall:install-appli-question.jpg?nolink|}}
+
+Pour installer des applications venant d'une autre source que le google play store, il faut explicitement donner l'autorisation à votre appareil. Si vous ne l'avez pas déjà fait, un message vous dira:
+
+{{:androidinstall:popup-debloquer.jpg?nolink|}}
+
+Allez dans les paramètres de votre appareil pour autoriser l'installation d'applications depuis des sources inconnues :
+
+{{:androidinstall:source-inconnues.jpg?nolink|}}
+
+Une fois l'installation terminée, vous pouvez lancer l'application TRAPTA en tapant son icone.
+
+===== Installation du matériel =====
+
+==== Positionner le routeur ====
+
+Le routeur est l'appareil qui crée le réseau wifi. Il émet en permanence le nom du réseau. C'est ce nom que vous voyez apparaître sur vos télephones portables dans la liste des réseaux wifi disponibles. Il est le pont entre tous les appareils qui ont besoin du réseau pour communiquer (appareils android et PC). L'idéal est de le placer au milieu de tout le monde. Dans la pratique les portées radios étant suffisantes, il peut etre placé à côté du PC TRAPTA. 
+Tous les appareils doivent être connectés en WIFI au routeur (PC, tablettes, etc...).
+
+Le routeur n'a besoin d'aucune configuration particulière. Vous achetez votre routeur, vous le sortez du carton et vous le branchez à une prise électrique. C'est prêt. Le nom du réseau WIF et le mot de passe sont en général marqués sur une étiquette collée au dos du routeur.
+Le routeur n'a pas besoin d'avoir de sortie vers internet pour faire marcher le système TRAPTA.
+
+En cas de doute sur la portée de votre réseau WIFI, vous pouvez facilement tester si une tablette captera à un endroit précis. Sur un télephone android, vous pouvez installer une application comme [[https://play.google.com/store/apps/details?id=com.farproc.wifi.analyzer&hl=en|WIFI analyzer]]. Placez-vous au niveau des cibles et vérifiez la puissance du signal du réseau créé par votre routeur.
+
+==== Placer les appareils android ====
+
+Il est recommandé de placer les appareils android au niveau des cibles, posées par exemple sur une chaise placée entre les cibles toute les deux cibles ou encore suspendues à un crochet / clou enfoncé sur le côté de la paille. A vous d'inventer votre façon de faire, mais en tout cas, évitez de laisser les appareils par terre, on peut marcher dessus et une tablette au sol captera moins bien qu'au niveau du routeur, généralement positionné à hauteur de table.
+
+==== Exemples ====
+
+{{:tutorial:install1.jpg?nolink|}}
+
+Lors de cette compétition, l'organisateur a placé une table dans un coin du gymnase. Il y a posé ses PC, le routeur WIFI et le video-projecteur qui envoie le classement sur un écran de toile. Un autre PC avec video-projecteur était placé de l'autre côté de la salle.
+
+{{:tutorial:install3.jpg?nolink|}} 
+
+Toutes les 2 cibles, une chaise est placée entre les chevalets. Les archers y posent leurs appareils.
+
+Avec des appareils de type [[materiel|Geotel G1]] qui ont un anneau, on peut y passer une ficelle et ainsi suspendre par exemple l'appareil à un clou enfoncé dans le coté de la paille. 
+
+
+===== Tutoriel =====
+En suivant ce tutoriel, vous apprendrez comment:
+
+  * Récupérer les listes d'archers de chaque départ depuis Resultarc et les charger dans TRAPTA (ou bien créer manuellement une liste d'archers sans passer par Result'arc)
+  * Configurer les appareils pour chaque cible
+  * Utiliser TRAPTA Viewer: afficher sur un écran ou video-projecteur le classement en temps réel
+  * Utiliser TRAPTA Cloud: poster les résultats en temps réel sur internet
+  * Repousser les scores dans Resultarc à la fin de chaque tir.
+
+===== 1. Créer ou récupérer une liste d'archers =====
+
+La liste d'archers (départ) peut être récupérer du logiciel Résult'arc ou bien créée manuellement avec un simple tableur (spreadsheet) type Excel.
+
+==== 1.1 Récupérer la liste depuis Result'arc ====
+
+Pour attribuer les archers à chaque tablette, il faut d'abord extraire de Resultarc la liste des archers de votre départ.
+Cette liste sera chargée dans l'application TRAPTA, et les appareils android iront récupérer les noms des archers placés sur chaque cible.
+
+Pour extraire la liste des archers de Resultarc, il faut installer un petit logiciel sur le même PC que celui de Resultarc. Vous indiquerez à ce logiciel quelle compétition et quel départ vous voulez extraire, et il ira chercher dans la base de données de Resultarc la liste des archers et les cibles sur lesquelles ils sont placés. 
+
+**Il est recommandé de n'extraire que le départ dont vous avez besoin. Si le départ à venir est le 1, extrayez la liste des archers du départ 1, et vous referez la même opération avant le départ 2 et ainsi de suite pour les départ suivants.
+**
+
+=== 1.1.1 Installer TRAPTA Transfert sur le PC de Resultarc ===
+
+Allez sur la page de [[:applications|chargement des applications]]
+
+
+Téléchargez la dernière version de TRAPA Transfer : {{:tutorial:traptatransfer128.png?nolink&50|}}
+
+Installez cette application sur le même PC que Resultarc. Suivez les instructions de l'installeur.
+
+=== 1.1.2 Extraire la liste d'un départ ===
+
+Avant d'extraire un départ, assurez-vous que votre liste est prête et que tous les archers sont placés sur une cible.
+
+Lancez Resultarc Transfer {{:tutorial:traptatransfer128.png?nolink&50|}}
+
+Vous arrivez sur la première page :
+
+{{:tutorial:traptatransfer1.png?nolink|}}
+
+Sélectionnez la première option "Extraire la liste des engagés pour les importer dans TRAPTA", puis cliquez "Suite".
+
+L'application demande où se trouve Resultarc (pour aller lire sa base de données) :
+
+{{:tutorial:traptatransfer3.png?nolink|}}
+
+La valeur par défaut est c:\resultarc. Il s'agit de l'endroit par défaut où s'installe resultarc si vous n'avez pas changé le chemin.
+
+Appuyez sur "Suite".
+
+La liste des compétitions enregistrées dans Resultarc s'affiche. Sélectionnez votre compétition et indiquez le départ que vous voulez extraire.
+
+{{:tutorial:traptatransfer2.png?nolink|}}
+
+Cliquez "Suite". Entrez un nom de fichier. Une fois enregistré, copier le fichier sur une clé USB. 
+
+Il faut maintenant charger ce fichier dans l'application TRAPTA.
+
+=== 1.1.3 Gérer en même temps un concours FITA et un concours Fédéral ===
+
+Il est possible de gérer un concours de type FITA + Federal avec un seul TRAPTA.
+
+
+  * Importer dans TRAPTA successivement les 2 concours FITA et Federal créés dans Result'arc. Vous n'aurez pas de problème de chevauchement de cibles puisque vous avez fait en sorte dans result'arc d'attribuer une partie des cibles au FITA et une autre au Federal. Dans TRAPTATransfer, pensez à cocher la case "Gestion de plusieurs concours en même temps" de facon à ce que la catégorie de l'archer soit marquée du type de compétition.
+
+Utilisez TRAPTATransfer pour récupérer votre compétition FEDERAL (en cochant en bas de la fenêtre) :
+
+{{:tutorial:transfer-federal.png?nolink|}}
+
+Puis votre compétition FITA (en cochant en bas de la fenêtre) :
+
+{{:tutorial:transfer-fita.png?nolink|}}
+
+  * Chargez successivement les deux listes d'archers dans TRAPTA
+
+{{:tutorial:trapta-type.png?nolink|}}
+
+Vous noterez ques les categories des archers sont prefixées par le type de la compétition (FEDERAL et FITA). Cette disctinction permettra de les regrouper dans les bonnes categories lors de l'affichage du classement.
+Si vous avez fait une mise à jour de TRAPTA, vérifiez que la liste des catégories est présente dans la fenêtre de réglages :
+MENU > Affichage catégories ...
+
+{{:tutorial:reglage-categ.png?nolink|}}
+
+Si les catégories commençant par FITA et FEDERAL ne sont pas présentent, appuyez simplement sur le bouton "Valeurs par défaut" et elles seront chargées.
+
+  * Après les tirs, exportez les résultats de votre départ depuis TRAPTA et réinjectez simplement les scores dans Result'arc comme s'il s'agissait d'une seule compétition. TRAPTATransfer saura retrouver ses petits et il injectera les scores dans les 2 compétitions distinctes de résult'arc.
+
+
+== Notes sur les données extraites de Résult'arc ==
+
+Les données extraites de Résult'arc ne sont que les noms, catégories et numéro de licences. Il ne s'agit que des données nécessaires pour constituer une feuille de départ. Notez que les scores ne peuvent pas être extraits pour être mis à jour dans TRAPTA. Il est IMPOSSIBLE de procéder au cas d'utilisation suivant :
+
+  * Après les tirs, vous réinjectez les scores de TRAPTA dans Résult'arc, puis un contrôle avec les résultats des feuilles papier vous amène à corriger un score sur Résult'arc. Vous voudriez extraire à nouveau les archers de Résult'arc pour mettre à jour TRAPTA avec la correction.
+
+Si vous extrayez à nouveau ce départ de Résult'arc, le fichier ne contiendra pas les scores et si vous le réimportez dans TRAPTA, vous remettrez tous vos scores à 0. 
+Il faut comprendre que TRAPTA calcul en permanence les scores et les obtient en sommant toutes les flèches d'un archer. Et de l'autre côté, Résult'arc ne mémorise pas les flèches mais uniquement un score global. Il est donc impossible de repartir d'un score global de Résult'arc pour reconstituer une feuille de score complète d'un archer sur TRAPTA. 
+
+En conséquence, si vous faite une modification de score dans Résult'arc après coup, vous devez faire la correction dans TRAPTA à l'aide d'une tablette: prenez une tablette au hasard, MENU > REDEMARRER, sélectionnez la cible à corriger, la tablette recharge les archers de cette cibles avec toutes leurs données, modifiez, et la correction est envoyée à TRAPTA.
+
+==== 1.2 Créer une liste manuellement avec un tableur (Excel par exemple) ====
+
+Si vous n'utilisez pas Result'arc, vous pouvez créer manuellement votre liste d'archers avec un simple tableur et l'importer dans TRAPTA.
+
+=== 1.2.1 Création de la liste dans le tableur ===
+
+Ouvrez votre tableur préféré: Excel (Microsoft), Numbers (Apple), Calc (LibreOffice), Spreadsheet (Google), ou autre.
+
+Créez vos tableaux d'archers ainsi :
+
+== Départ 1 ==
+
+{{:depart1.png?nolink|}}
+
+== Départ 2 ==
+
+{{:depart3.png?nolink|}}
+
+Les colonnes correspondant à :
+
+
+|A|Identifiant|Il s'agit d'un identifiant quelconque. Le plus simple est de commencer à 1 et de faire +1 à chaque nouvelle ligne. Attention, cet identifiant doit être unique dans toute la compétition, notez qu'il ne se répète pas, même entre différents fichiers.|
+|B|Licence|Numéro de licence. Cet identifiant doit être unique pour chaque personne. Lorsqu'un numéro de licence se retrouve dans plusieurs départs, TRAPTA affichera des numéros de tirs différents (colonne [tir] dans TRAPTA)|
+|C|Catégorie|Nom de la catégorie de l'archer. Lors de l'affichage temps réel des résultats, les archers sont regroupés par nom de catégorie. Ils sont classés dans leur propre catégorie. Vous pouvez écrire par exemple: Minimes garcon, ou cadet filles, etc...|
+|D|Nom|Nom de famille. Il sera affiché en premier sur le classement temps réel|
+|E|Prénom|Il sera affiché en second sur le classement temps réel|
+|F|Club|Nom du club. Important si vous voulez utilisez la fonction de classement par équipe. Le nom du club est le nom de l'équipe.|
+|G|Départ|Numéro du départ. Il s'agit du numéro du groupe de tir. Par exemple le premier groupe du samedi matin sera le départ 1, le groupe du samedi après-midi sera le départ 2, etc...|
+|H|Cible|Numéro de cible et quadrant dans la cible. Un nombre et une lettre de A à D, car 4 archers max par cible.|
+|I|Trispot|0 si pas de trispot, 1 si tripsot. L'indication de trispot permet à l'application sur tablette de ne proposer que des valeurs de 5 à 10.|
+
+Vous pouvez mettre autant de lignes vides que vous voulez dans votre tableau. Par exemple pour séparer les cibles et les catégories.
+
+Nous vous conseillons de faire un fichier par départ. Vous pourrez charger dans TRAPTA plusieurs fichiers successivement. Si des changements sont à effectuer avant chaque départ, ce qui est souvent le cas, il vous suffira alors d'effacer le départ en question dans TRAPTA, faire la modification dans votre tableur et réimporter le nouveau fichier. D'où l'intérêt d'avoir un fichier différent pour chaque départ.
+
+Une fois vos tableaux prêts, exporter vos données au format CSV. CSV signifie Comma Separated Value. Tous les tableurs proposent ce type de format à l'enregistrement. Il s'agit d'une option à choisir dans le menu "Enregistrer sous" ou bien "Exporter".
+
+Voici les 2 fichiers d'exemple: [[http://www.trapta.eu/res/depart1.csv|depart1.csv]] [[http://www.trapta.eu/res/depart2.csv|depart2.csv]]
+
+
+=== 1.2.2 Importation dans TRAPTA ===
+
+  * Effacer d'abord toute la compétition précédente: menu [Compétition>Effacer tout]
+  * Importer le fichier depart1.csv: menu [Archers>Importer depuis fichier CSV]
+  * Importer le fichier depart2.csv: menu [Archers>Importer depuis fichier CSV]
+
+Une fois chargé dans TRAPTA, le départ 1 apparaîtra ainsi :
+
+{{:screen_shot_2018-08-17_at_15.16.53.png?nolink|}}
+
+
+
+==== 2. Charger le départ dans l'application TRAPTA ====
+
+L'application TRAPTA est le serveur, le coeur du système. Elle communique avec les appareils android et envoie les classements à l'afficheur et au posteur sur internet.
+
+=== 2.1 Installer le serveur TRAPTA ===
+
+Allez sur la page de [[:applications|chargement des applications]]
+
+
+Téléchargez la dernière version de TRAPTA : {{:tutorial:icon-trapta.png?nolink&50|}}
+
+Installez cette application sur le PC dédié au système TRAPTA. Suivez les instructions de l'installeur.
+
+Sur Windows, lors du premier lancement, si votre parefeu est actif, votre PC vous demandera si on doit autoriser TRAPTA à communiquer sur le réseau.
+
+{{:tutorial:firewall2.png?nolink|}}
+
+Veillez à cocher les options "Privé" et "Public"
+
+Si par la suite vous n'arrivez pas à charger la liste des dossards dans les tablettes, désactivez complètement le pare-feu de windows.
+
+
+=== 2.2 Préparer le serveur TRAPTA ===
+
+Avant de lancer l'application TRAPTA, assurez-vous que le PC est connecté en WIFI ou par cable réseau au routeur WIFI.
+
+Lancez l'application TRAPTA. Vous arrivez sur l'écran principal du serveur :
+
+{{ :tutorial:trapta1.png?nolink |}}
+
+La première chose est de repartir de zéro en effacant la compétition précédente. Dans le menu "Compétition", cliquez "Effacer tout".
+
+{{ :menu1.png?nolink |}}
+
+**Cette action efface toutes les données de la compétition (score et archers). Elle n'est à faire qu'une seule fois au tout début de la compétition ! N'effacez pas les données entre chaque départ, car vous perdrez le bénéfice d'afficher dans le classement les résutlats des archers des précédents départs.**
+
+
+=== 2.3 Vérifier la connexion au réseau ===
+
+Votre PC doit être connecté au routeur (connecté au réseau) quand TRAPTA démarre. S'il n'est pas connecté TRAPTA affichera un message d'erreur.
+
+En bas de la fenêtre TRAPTA, vous pouvez voir que le PC est correctement connecté, car l'application affiche par exemple:
+
+{{:screen_shot_2018-08-16_at_16.25.47.png|}}
+
+Si le PC n'est pas connecté, l'application affiche :
+
+{{:screen_shot_2018-08-16_at_16.26.43.png?nolink|}}
+
+**Au cours de la compétition, si votre PC se trouve déconnecté du routeur, l'application TRAPTA affichera "Serveurs arrêtés". Dans ce cas, il faut quitter et relancer l'application. Il n'y a AUCUN risque de perte de données. Les appareils android se resynchroniseront entièrement et automatiquement dès que l'application TRAPTA sera de nouveau opérationnelle.**
+
+=== 2.4 Charger la liste des archers ===
+
+Dans le menu "Archers" de TRAPTA, cliquez "Importer depuis fichier CSV" :
+
+{{ :tutorial:menu2.png?nolink |}}
+
+Indiquez le chemin vers le fichier csv que vous avez créé avec trapta transfer ou avec un tableur et validez.
+
+La liste des archers apparaît dans le tableau. Vérifiez que vous êtes réglé sur le bon départ. Utilisez la liste déroulante "Départ" pour afficher le bon départ. Dans notre exemple, on se positionne sur le départ 1.
+
+{{ :trapta2.png?nolink |}} 
+
+Pour des raisons pratiques, si vous n'avez pas sous la main une compétition Resultarc, vous pouvez faire des tests avec une liste d'exemple contenu dans l'application. Dans le menu "Archers", cliquez "Ajouter liste d'exemple". 
+
+{{ :tutorial:menu3.png?nolink |}}
+
+Cette action crée des archers dans les 2 premiers départs.
+
+
+En faisant tourner Resultarc et TRAPTA sur le même PC, vous pouvez éviter de faire toute cette manipulation avec TRAPTATransfer et la clé USB. Depuis TRAPTA, allez simplement dans le menu Archers>Importer depuis Result'arc. L'application vous propose alors d'aller chercher directement les archers dans la base de données de result'arc et de les afficher dans TRAPTA.
+
+=== 2.4 Régler les paramètres de la compétition ===
+
+Réglez les paramètres de la compétition :
+
+{{ :tutorial:trapta3.png?nolink |}}
+
+  * Départ de la compétition
+  * Nombre de séries pour chaque départ (2 ou 4)
+  * Nombre de volées par série (1 à 12)
+  * Nombre de flèches par volée (3 ou 6)
+  * Cochez 10X pour les tirs en extérieur. Cette option permettra à la tablette de proposer la valeur 10X. Le critère de départage  en cas d'égalité est alors le nombre de 10 et 10X alors qu'elle est basé sur le nombre de 9 et de 10 lorsque l'option n'est pas cochée.
+
+=== 2.5 Modification des archers ===
+
+Il est possible de modifier les archers dans le tableau. En double-cliquant sur les cases du tableau, vous pouvez modifier les valeurs :
+
+{{ :tutorial:trapta4.png?nolink |}}
+
+S'il y a un changement de cible au dernier moment, vous pouvez faire l'économie d'un nouvel export/import de Resultarc vers TRAPTA. Double-cliquez sur le numéro de cible pour le modifier. Si deux archers se retrouvent sur la même cible, ils seront mis en rouge:
+
+{{ :tutorial:trapta5.png?nolink |}}
+
+Vous pouvez aussi sortir un archer du départ sans l'effacer complètement en réglant sa cible sur --- :
+
+{{ :tutorial:trapta6.png?nolink |}}
+
+Cet archer ne sera affecté à aucune cible. Les appareils android l'ignoreront. Son numéro de cible indéfini apparaît en orange.
+
+Il est possible de modifier la catégorie d'un archer, son nom ou son club. 
+
+{{ :tutorial:trapta7.png?nolink |}}
+
+Toutes ces valeurs peuvent être modifées, elle ne serviront pas à TRAPTA Transfer pour retrouver l'archer dans résult'arc lors de la mise à jour des scores.
+
+Cochez la case "Trispot" si l'archer tire sur un trispot. Cette case permettra à la tablette de ne pas proposer les valeurs 1,2,3,4,5 lors de la saisie de la valeur des flèches. La case est automatiquement cochée lors du chargement de la liste des archers si la case trispot a été cochée sur Resultarc.
+
+{{ :tutorial:trapta9.png?nolink |}}
+
+En faisant un clic droit sur une ligne du tableau, vous ouvrez un menu contextuel qui concerne l'archer surligné :
+
+{{ :tutorial:trapta10.png?nolink |}}
+
+Vous pouvez :
+
+  * Le supprimer complètement du tableau
+  * Remettre à zéro ses différentes séries
+
+Dans le menu "Archers", cliquez sur "Remettre à zéro points départ courant" pour remettre à zéro les points du départ courant, c'est-à-dire le départ sélectionné et affiché dans le tableau.
+
+{{ :tutorial:menu4.png?nolink |}}
+
+Dans le menu "Archers", cliquez sur "Effacer archers départ courant" si vous voulez effacer tout le départ courant. Cette opération est à faire si vous voulez recharger une liste d'archers issue de Resultarc. 
+
+Exemple de cas d'utilisation classique :
+
+Pour être prêt en avance vous avez extrait la liste des archers de resultarc 30 minutes avant la fin du greffe. Mais pendant ce temps des inscriptions ont été ajoutées, des modifications de cibles ont été faites, des personnes sont absentes, bref, vous estimez qu'il sera plus simple de refaire une nouvelle extraction de Resultarc plutot que de faire les modifications à la main sur TRAPTA. Vous pouvez donc effacer tout le depart de TRAPTA, aller extraire une nouvelle fois la liste des archers depuis Resultarc grace à TRAPTA Transfer puis recharger la liste dans TRAPTA.
+
+{{ :tutorial:menu5.png?nolink |}}
+
+Si vous n'avez qu'un seul archer à ajouter, vous pouvez le faire depuis TRAPTA :
+
+{{ :tutorial:menu6.png?nolink |}}
+
+Il vous faut maintenant renseigner toutes les valeurs pour cet archers.
+
+{{ :tutorial:trapta11.png?nolink |}}
+
+**Si vous modifiez un archer déjà chargé dans une tablette, il faut simplement réaffecter la cible concernée à la tablette (bouton MENU puis Redémarrer) et les modifications seront récupérées.**
+
+==== 3. TRAPTA Viewer: Afficher la position des archers et leur résultats / classement en temps réel ====
+
+L'affichage des positions de départs et des résultats est fait par l'application TRAPTA Viewer. Cette application peut tourner sur un PC windows, Mac, Linux ou sur un mini-ordinateur Raspberry PI.
+
+Cette application peut tourner sur le même PC que le serveur TRAPTA. 
+
+Téléchargez la version pour votre ordinateur ici: 
+
+[[http://www.trapta.eu/wiki/doku.php?id=applications|http://www.trapta.eu/wiki/doku.php?id=applications]]
+
+Lancez l'application. TRAPTAViewer est conçu pour se connecter automatiquement a TRAPTA Server. Vous n'avez rien à faire. Au démarrage, TRAPTAViewer montre cet écran :
+
+{{ :viewer:v1.png?nolink |}}
+
+Dans cet état, le pc sur lequel tourne TRAPTA Viewer est bien connecté à un réseau avec l'adresse 192.168.1.28, mais l'application est en attente du démarrage de TRAPTA Serveur. En démarrant TRAPTA, le Viewer passe automatiquement à cet écran:
+
+{{ :viewer:v2.png?nolink |}}
+
+Il affiche la liste des participants du départ 1 avec leur positions sur le pas de tir.
+Pour avoir une connexion entre TRAPTA Serveur et TRAPTA Viewer, les ordinateurs sur lesquels tournent ces 2 applications doivent être connectés au même routeur.
+
+Si l'ordinateur n'est pas connecté à un réseau, TRAPTA Viewer présentera cet écran :
+{{ :viewer:v3.png?nolink |}}
+
+Dès que les archers commenceront à entrer leurs volées, le viewer passera automatiquement dans le mode "Affichage du classement"
+
+Cliquez sur l'écran ou appuyez sur une touche pour faire apparaitre les options de réglages :
+
+{{:screen_shot_2018-08-15_at_19.55.00.png?nolink|}}
+
+Ces réglages vous permettront de fixer la taille de police, l'écartement entre les lignes, la vitesse de défilement, l'affichage ou non d'une information défilante, etc...
+
+==== 4. Initialiser les tablettes avec leur cible ====
+
+Il faut maintenant prendre chaque appareil android, et l'affecter à une cible. 
+
+Sur la tablette / téléphone, lancez l'application.
+
+{{:tuto1.png?nolink&200|}}
+
+Vous retrouvez l'application dans l'état où elle a été laissée lors de la précédente utilisation. Sans doute la compétition précédente par exemple.
+
+Appuyez sur le bouton MENU en haut à droite. L'écran suivant s'affiche:
+
+{{:tuto2.png?nolink&200|}}
+
+Appuyez sur le bouton "Redémarrer en mode connecté"
+
+Le mode connecté est le mode de fonctionnement normal: les appareils sont en réseau et communiquent avec le PC TRAPTA. Le mode "tout seul" ou autonome est un mode de démonstration qui permet d'utiliser l'application sans aucun connexion extérieur.   
+
+Si la tablette n'est pas connecté au réseau WIFI, ou si le serveur TRAPTA n'est pas correctement demarré sur son PC, elle affichera le message suivant:
+
+{{ :tutorial:device3.png?200 |}}
+
+Si la tablette est bien connectée au WIFI et le serveur TRAPTA démarré, vous arrivez sur l'écran suivant:
+
+{{:tuto3.png?nolink&200|}}
+
+En haut est indiqué le numéro de la cible (cible 1 dans l'écran ci-dessus), et en dessous la liste des archers placés sur cette cible. 
+
+Regardez à quelle cible doit être affectée la tablette que vous avez entre les mains, appuyez sur le bouton en haut, la liste de toutes les cibles disponibles apparaît (dans notre exemple il n'y a que 3 cibles disponibles):
+
+{{ :tutorial:device7.png?200 |}}
+
+Sélectionnez la cible voulue. La tablette établit alors une connection sur le serveur TRAPTA pour y récupérer la liste des archers de cette cible et éventuellement les volées qui auraient déjà été envoyées.
+
+La nouvelle cible sélectionnée et sa liste d'archer apparaît.
+
+{{ :tutorial:device6.png?200 |}}
+
+Assurez-vous de cocher "Démarrer le guide audio" pour avoir le guide audio lors de la saisie de la première volée. Ce guide peut être intéressant pour les archers qui découvrent l'application.
+Appuyez sur OK, vous arrivez sur l'écran d'accueil:
+
+{{ :tutorial:device4.png?200 |}}
+
+
+**À partir de maintenant, la tablette peut être mise en veille, elle est prête à être réveillée par les archers**
+
+
+Si vous avez coché "Démarrer le guide audio", veillez à laisser la tablette sur cet écran. En appuyant lui-même sur le bouton [Démarrer], l'archer déclenchera le guide audio et pourra ainsi le suivre.
+
+Cette opération d'initialisation est à refaire par exemple s'il y a eu un changement de nom ou de numéro de cible sur TRAPTA. Il n'est nécessaire de réinitialiser que les tablettes impactées par le changement. 
+C'est aussi cette phase d'initialisation qui permettra de remplacer une tablette par une autre.
+
+
+==== 5. Saisie des volées ====
+
+À chaque volée, les archers vont aux cibles récupérer leurs flèches et noter leur points. Un archer note sur la feuille tandis qu'un autre note sur la tablette. La tablette présente les informations comme la feuille de papier. 4 archers peuvent marquer sur une tablette, chacun ayant une lettre A, B, C ou D. En appuyant sur les boutons A, B, C ou D, on bascule sur les différentes feuilles de scores.
+
+{{ :tutorial:device1.png?200 |}}
+
+Petit conseil:
+Si vous donnez une explication aux archers en début de concours sur la façon d'utiliser les appareils android, soyez extrêmement brefs. L'application est conçu pour être intuitive et l'expérience montre que les gens comprennent comment saisir leurs valeurs sans explications préalables. Plus vous donnerez d'explications, plus ce sera confus, plus les gens cogiteront et plus la saisie sera au final laborieuse et donc plus grand sera le phénomène de rejet pour certains.
+
+Sélectionnez l'archer avec les boutons A, B, C ou D.
+
+Appuyez sur le bouton [Saisir la n-ième volée].
+
+{{ :tutorial:device8.png?200 |}}
+
+L'écran de saisie de volée apparaît :
+
+{{ :tutorial:device9.png?200 |}}
+
+Entrer vos 3 ou 6 flèches. L'ordre de saisie n'a pas d'importance, l'application classera elle-même les valeurs dans l'ordre décroissant par la suite.
+
+{{ :tutorial:device10.png?200 |}}
+
+Terminez en appuyant sur valider.
+
+{{ :tutorial:device11.png?200 |}}
+
+Une nouvelle ligne vous indique les valeurs des flèches, le total de la volée et le total cumulé.
+
+Changez d'archer un appuyant sur une autre lettre.
+
+{{ :tutorial:device12.png?200 |}}
+
+La feuille de score se construit au fur et à mesure des saisies.
+
+{{ :tutorial:device15.png?200 |}}
+
+Arrivé au bout de la série, vous avez un récapitulatif avec la somme des 2 séries si vous êtes à la 2ème série. Les données disponibles sont les même que celles sur la feuille papier.
+
+{{ :tutorial:device16.png?200 |}}
+
+
+
+=== 5.1 Modifier une volée ===
+
+Vous pouvez modifier une volée en appuyant simplement dessus. En appuyant sur la 3ème ligne de l'exemple précédent, l'application demande confirmation :
+
+{{ :tutorial:device13.png?200 |}}
+
+Puis permet de modifier la valeur des flèches de cette volée.
+
+Il est possible de verrouiller la modification des volée en allant dans le menu de l'application (bouton [MENU] en haut à droite de l'écran) puis bouton [Verrouiller les volées].
+Dans les faits, ce verrouillage n'a aucun intérêt, car comme le dit le règlement sportif, en cas de divergence entre la feuille de score papier et la feuille de score électronique, ce sont les valeurs de la feuille papier qui seront retenues. **Dès lors il est inutile de verrouiller des valeurs qui de toutes façons seront ignorées si elles ne correspondent plus à la feuille papier**.
+
+=== 5.2 Basculer en série 2 ===
+
+Pendant la pause entre les 2 séries, vous devrez passer vérifier chacune des tablettes et la basculer en série 2. Pour ce faire, appuyez sur le bouton [MENU] en haut à droite puis sur le 2ème bouton de l'écran suivant:
+
+{{ :tutorial:device2.png?200 |}}
+
+Vous reviendrez à l'écran principal et vous noterez qu'il affiche "Série 2" en haut à gauche. 
+
+{{ :tutorial:device17.png?200 |}}
+
+Refaite la même manipulation pour revenir à la série 1.
+
+=== 5.3 Contraste extérieur ===
+
+En extérieur, en plein soleil, le texte blanc sur fond noir n'est pas idéal et sur certains appareils il est même complètement invisible. Il faut alors passer l'application en mode "Contraste extérieur" pour avoir un texte noir sur fond blanc. Pour ce faire, appuyez sur le bouton [MENU] en haut à droite puis sur le bouton [Contraste extérieur]:
+
+{{ :tutorial:device2.png?200 |}}
+
+L'application basculera en noir et blanc avec texte noir sur fond blanc :
+
+{{ :tutorial:device18.png?200 |}}
+
+==== 6. Réception des valeurs par TRAPTA ====
+
+À chaque validation de volée, la tablette renvoie à TRAPTA la feuille de marque complète. 
+
+Le système est très robuste aux pannes. Si pour une raison quelconque le serveur TRAPTA n'est plus opérationnel (plus de batterie, le PC s'est trouvé débranché, ou autre), les appareils android continuent de mémoriser les volées successives. L'application tente continuellement de reprendre contact avec TRAPTA. Dès que celui-ci est relancé, les appareils renvoient toutes les informations qui n'ont pas pu être transmises pendant la panne.
+
+==== 6.1 Surveillance de la réception ====
+
+Au fur et à mesure que les archers entreront leur points, vous verrez apparaître les volées dans la grille principale de TRAPTA:
+
+{{ :tutorial:trapta101.png?nolink |}}
+
+On prend l'exemple d'une compétition avec seulement 4 archers.
+
+Sur l'image ci-dessus, dans la colonne "Série 1", la valeur 24/1 signifie que le score total de l'archer est 24 et que le nombre de volées envoyées est 1.
+
+{{ :tutorial:trapta102.png?nolink |}}
+
+Lors de la phase de saisie des volées, les premiers archers à saisir leur points ont un petit triangle qui apparaissent devant leur score :
+{{ :tutorial:warning.png?nolink |}}
+
+Ce symbol signifie que cet archer n'a pas le même nombre de volées que la majorité des autres archers. Dans l'image ci-dessus, la majorité des archers a 1 volée, et le premier a 2 volées, il a donc un warning. Lors de la saisie, les premiers archers à entrer leur points auront des warnings, mais dès que le nombre courant de volée deviendra majoritaire, alors ce seront les derniers à devoir entrer leur volée qui auront un warning. Au final, en fin de saisie, on peut voir d'un coup d'oeil ceux qui n'ont pas encore entré leur points.
+
+{{ :tutorial:trapta103.png?nolink |}} 
+
+Dans l'image ci-dessus, on voit que les archers ayant 2 volées ne sont pas majoritaires, ils ont donc un warning.
+
+{{ :tutorial:trapta104.png?nolink |}}
+
+Le 3ème archer entre sa 2ème volée. Dans l'image ci-dessus, les archers à avoir entré 2 volées sont majoritaires, ils n'ont donc plus de warning. C'est maintenant le 4ème archer qui a le warning car son nombre de volées entrées n'est pas égale à celui de la majorité. Lorsque tous les archers ont saisi leurs points et que tout le monde a le même nombre de volées reçues, il n'y a plus de warning.
+
+==== 6.2 Afficher la limite des qualifications ====
+ 
+Lors de compétitions type championnats, il est très intéressant d'afficher le "cut" en permanence. Ainsi, les archers et le public savent à l'issue de chaque volée qui sera retenu pour les matches.
+
+Dans TRAPTA, Menu [Réglages] puis [Affichage cut]. 
+
+Pour chaque catégorie, indiquez combien d'archers seront retenus pour les phases finales.
+
+{{:tutorial:screen_shot_2018-02-06_at_17.30.36.png?nolink|}}
+
+==== 7. Changement de tablette en cas de panne ====
+
+Le système TRAPTA est conçu pour être très pratique et réactif en cas de panne ou de casse d'une tablette. En quelques secondes, vous pouvez faire l'échange d'une tablette sans perturber le déroulement de votre concours.
+Gardez toujours un ou deux appareils android de secours, allumées sur le coin d'une table.
+
+A tout moment pendant la compétition, si, pour une raison quelconque, une tablette n'est plus opérationnelle, prenez une tablette de rechange, appuyez sur le bouton MENU puis REDÉMARRER et sélectionnez la cible dont la tablette est hors service. La nouvelle tablette charge alors tous les scores déjà envoyés et vous pouvez la donner aux archers. Cette opération est complètement transparente pour eux, ils retrouvent leur tablette dans le même état.
+
+
+==== Recommandantions ====
+
+==== 8. Enregistrer les résultats dans Result'arc ====
+
+Plus besoin de saisie manuelle des résultats dans Résult'arc. À la fin de chaque départ, vous pouvez les renvoyer automatiquement via l'application Transfert. Il s'agit de l'opération inverse de celle faite en début de compétition.
+
+=== 8.1 Exporter les résultats depuis TRAPTA ===
+
+Une fois les tirs du départ terminés, exportez les résultats depuis TRAPTA dans un fichier: dans l'application TRAPTA, menu [Archers] et [Exporter vers fichier CSV]. Enregistrez dans un fichier et copiez ce fichier sur une clé USB. 
+
+L'export des résultats dans ce fichier ne concerne que le départ courant dans TRAPTA (le départ indiqué dans la combo liste en haut à gauche). Autrement dit les scores exportés ne sont que ceux des archers que vous avez dans votre liste sous vos yeux au moment où vous faites l'action d'export. Si vous voulez exporter les scores de 4 départs d'un coup, il faudra créer 4 fichiers en changeant à chaque fois le départ courant et en exportant vers un fichier CSV.
+
+=== 8.2 Repousser les scores dans Result'arc ===
+
+Sur le PC ou se trouve Result'arc, lancez l'application Resultarc Transfer. 
+
+{{ :tutorial:transfer-push.png?nolink |}}
+
+Choisissez "Mettre à jour les scores exportés par TRAPTA"
+
+Indiquez le chemin vers le dossier qui contient Résult'arc (normalement C:\resultarc) si vous avez pris la valeur proposée. 
+
+Indiquez le chemin vers le fichier csv que vous avez exporté depuis TRAPTA.
+
+L'application repousse les score dans Resultarc.
+
+Vous pouvez maintenant visuellement vérifier que les scores de ce départ enregistrés dans Resultarc correspondent aux valeurs écrites sur la version papier de vos feuilles de scores.
+
+Si vous faites tourner TRAPTA sur le même PC que résult'arc, vous n'avez pas besoin de passer par un fichier. Vous pouvez repousser les scores de TRAPTA directement dans la base de données de résult'arc : allez dans le menu Archers puis cliquez "Exportez vers résult'arc". S'ouvre alors directement la fenêtre qui permet de repousser les scores.
+
+
+
+==== 10. TRAPTA Cloud: Envoyer les résultats en direct sur internet ====
+
+----
+Les explications suivantes vous guident pour mettre en place votre connexion internet depuis un gymnase ou un pas de tir en extérieur, c'est-à-dire dans une situation ou vous n'avez pas de box ASDL ou fibre. Mais pour faire tous vos tests de TRAPTA Cloud, vous pouvez bien sûr tout faire sur le même PC chez vous. Sur un même PC connecté à votre box internet, lancez TRAPTA et TRAPTACloud et testez.
+----
+
+Pour envoyer les résultats sur internet et les suivre en direct, il faut utiliser TRAPTA Cloud. Lors de l'achat de licences, un compte a été créé et un identifiant et un mot de passe vous a été fourni.
+
+//Dans un gymnase ou en extérieur, c'est-à-dire dans les cas ou la liaison internet se fait au final via la 4G// :
+
+Pour utiliser TRAPTA Cloud, il faut le faire tourner sur un PC qui est connecté à la fois au routeur de la compétition (sur lequel est connecté l'application TRAPTA Serveur et les tablettes) et à la fois à internet. Le seul moyen de réaliser un tel montage, est d'utiliser sont téléphone portable en mode de partage de connexion via USB (USB Tethering). 
+
+Attention, le partage de connexion par WIFI (wifi hotspot) ne marchera pas. Le seul montage possible est via l'USB. Autrement dit, si vous espérez connecter par exemple votre PC au routeur par câble et à votre mobile en WIFI, ca ne marchera pas.
+
+Vous devez donc d'un coté connecter le PC au routeur par cable ou WIFI, et de l'autre coté, le connecter au téléphone portable par USB.
+
+Voici sur un téléphone android Nexus 6 où trouver l'option de partage de connexion via USB:
+
+{{:tap3.png?nolink|}}
+{{:tap1.png?nolink|}}
+{{:tap2.png?nolink|}}
+
+
+
+
+Ce partage de connexion peut se faire sur le même PC que celui sur lequel tourne TRAPTA ou bien sur un autre PC connecté au routeur.
+
+Ce PC aura donc une connexion à 2 réseaux. 
+
+  * Cas où TRAPTA et TRAPTA Cloud sont sur le même PC :
+
+{{:network-config1.png?nolink|}}
+
+
+Si vous faites ce montage de double réseau sur le PC qui fera tourner TRAPTA, lorsque vous lancerez l'application, TRAPTA ouvrira la fenêtre suivante :
+
+ {{ :tutorial:ipchooser.png?nolink |}}
+
+Dans l'exemple, 192.168.2.198 est l'adresse du PC sur le réseau du routeur, et 192.168.42.11 est l'adresse de ce même PC sur le réseau du téléphone portable qui lui, a sur sortie vers internet. Il faut donc indiquer à TRAPTA quel réseau est celui du routeur, pour qu'il puisse communiquer avec les tablettes. Dans l'exemple, il faut choisir 192.168.2.198.
+
+
+  * Cas où TRAPTA et TRAPTA Cloud sont sur des PC différents :
+
+{{:network-config2.png?nolink|}}
+
+
+
+Lancez TRAPTA Cloud. Entrez à gauche votre identifiant, votre mot de passe, à droite le nom de votre compétition, la date et l'heure du début des tirs. Ces informations seront affichées et permettront à vos "suiveurs" de retrouver votre lien sur [[http://score.trapta.eu|http://score.trapta.eu]]
+
+{{ :tutorial:traptacloud-internetconnected.png?nolink |}}
+
+En appuyant sur "Mettre à jour", TRAPTA Cloud tente de joindre le serveur de score. Si ce serveur a pu être joint, la connexion entre TRAPTA Cloud et internet passe au vert sur le schéma. Le bouton "Afficher"permet d'afficher la compétition, et le bouton "Effacer" permet de la cacher.
+
+Appuyez sur le bouton "Connecter" pour connecter TRAPTA Cloud au serveur TRAPTA. Si la connexion réussi, le voyant passe au vert comme sur l'image ci-dessous. 
+
+{{ :tutorial:traptacloud-allconnected.png?nolink |}}
+
+À partir de maintenant, TRAPTA fera suivre toutes ses données à TRAPTA Cloud qui les postera à son tour sur internet.
+
+Au bas de la fenêtre, vous avez un espace ou TRAPTA Cloud dit tout ce qu'il fait.
+ 
+
+
+==== Recommandantions ====
+
+=== Basculer en série 2 ===
+À la fin de la série 1, pendant la pause, n'oubliez pas de basculer toutes vos tablette sur la série 2: bouton MENU puis "basculer sur série 2".
+Si vous oubliez cette étape, lorsque les archers reprendront la tablette après leur 1ère volée de série 2, ils ne pourront plus entrer leur volée. 
+
+
+
+
+=== Reboot complet ===
+Éteignez et rallumer les appareils android entre chaque départ
+
+
+
+=== Recharge ===
+N'oubliez pas de recharger les appareils android la nuit avant la compétition
+
+
+=== Problème de connexion au réseau ===
+Si pour une raison quelconque une tablette semble ne plus avoir de connexion avec le serveur TRAPTA: Paramètres de la tablette, WIFI off, WIFI on. En éteignant et rallumant le WIFI, la tablette réinitialise sa connexion au réseau.
+
